@@ -14,6 +14,7 @@ $ yarn install
 ## Setup Env
 
 DATABASE_URL=mongodb://USERNAME:PASSWORD@HOST:PORT/DATABASE
+<br>
 PORT=any 4 digit number
 
 ## Prisma Setup
