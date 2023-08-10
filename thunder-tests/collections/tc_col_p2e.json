@@ -1,0 +1,78 @@
+{
+    "_id": "5b42efe5-12f4-4f52-8caa-08124aed2880",
+    "colName": "p2e",
+    "created": "2023-08-07T16:31:45.506Z",
+    "sortNum": 10000,
+    "folders": [],
+    "requests": [
+        {
+            "_id": "867a0155-bece-46cf-8092-141ceb540c60",
+            "colId": "5b42efe5-12f4-4f52-8caa-08124aed2880",
+            "containerId": "",
+            "name": "Create Event",
+            "url": "{{url}}event",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2023-08-07T16:32:31.028Z",
+            "modified": "2023-08-09T21:13:47.717Z",
+            "headers": [],
+            "params": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"eventStartDateTime\": \"2023-07-10T13:30:00Z\"\n}",
+                "form": []
+            },
+            "tests": []
+        },
+        {
+            "_id": "15865622-ca81-4ac7-842e-8012f78adc19",
+            "colId": "5b42efe5-12f4-4f52-8caa-08124aed2880",
+            "containerId": "",
+            "name": "Get Slots",
+            "url": "{{url}}event/slots?date=2023-07-08&timeZone=India",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2023-08-07T16:45:19.906Z",
+            "modified": "2023-08-10T05:37:33.983Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "date",
+                    "value": "2023-07-08",
+                    "isPath": false
+                },
+                {
+                    "name": "timeZone",
+                    "value": "India",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        },
+        {
+            "_id": "c377d9b6-9b34-479d-8f0c-11045758f7e6",
+            "colId": "5b42efe5-12f4-4f52-8caa-08124aed2880",
+            "containerId": "",
+            "name": "Get Events",
+            "url": "{{url}}event?startDate=2023-07-09&endDate=2023-07-10",
+            "method": "GET",
+            "sortNum": 30000,
+            "created": "2023-08-08T17:53:13.542Z",
+            "modified": "2023-08-09T21:14:06.854Z",
+            "headers": [],
+            "params": [
+                {
+                    "name": "startDate",
+                    "value": "2023-07-09",
+                    "isPath": false
+                },
+                {
+                    "name": "endDate",
+                    "value": "2023-07-10",
+                    "isPath": false
+                }
+            ],
+            "tests": []
+        }
+    ]
+}

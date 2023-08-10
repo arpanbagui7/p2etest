@@ -1,0 +1,14 @@
+{
+    "_id": "b5c8b9ee-923d-4282-9e5b-ebbb90539cdd",
+    "name": "p2e_local",
+    "default": true,
+    "sortNum": 10000,
+    "created": "2023-08-07T16:31:56.565Z",
+    "modified": "2023-08-07T16:31:56.565Z",
+    "data": [
+        {
+            "name": "url",
+            "value": "http://localhost:6050/api/"
+        }
+    ]
+}
