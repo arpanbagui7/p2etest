@@ -29,11 +29,11 @@
             "colId": "5b42efe5-12f4-4f52-8caa-08124aed2880",
             "containerId": "",
             "name": "Get Slots",
-            "url": "{{url}}event/slots?date=2023-07-08&timeZone=India",
+            "url": "{{url}}event/slots?date=2023-07-08&timeZone=UTC",
             "method": "GET",
             "sortNum": 20000,
             "created": "2023-08-07T16:45:19.906Z",
-            "modified": "2023-08-10T05:37:33.983Z",
+            "modified": "2023-08-10T19:08:26.747Z",
             "headers": [],
             "params": [
                 {
@@ -43,7 +43,7 @@
                 },
                 {
                     "name": "timeZone",
-                    "value": "India",
+                    "value": "UTC",
                     "isPath": false
                 }
             ],

@@ -57,7 +57,7 @@ const EventService = {
         if (!bookedSlots.has(slot)) {
           availableSlots.push(
             DateTime.fromISO(slotTime, { zone: eventConstant.defaultTimezone })
-              .setZone("Asia/Kolkata")
+              .setZone(selectedTimeZone)
               .toISO()
           );
         }
